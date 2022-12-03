@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Different types of selectors</title>
+    <style>
+      /* universal selector */
+        *{
+            background-color: #35BDD0;
+        }
+        /* individual selector */
+        p{
+          background-color:#FF6666;
+        }
+        /* h1{
+          color:#FF6666;
+        } */
+      /* class and id selector */
+      .box1{
+        background-color: #2827CC  ;
+      }
+      #line1{
+        background-color: #E6425E;
+      }
+      /* chained selector */
+      p.box1.bg-1{
+        background-color: #E21717;
+      }
+      /* combined selector */
+      h1,span{
+        background-color: #758283;
+      }
+      /* inside element  */
+      div p{
+        background-color: #E8BD0D;
+      }
+      /* /* direct child   */
+      div>p{
+        background-color: rgb(241, 183, 183);
+      }
+
+      /* sibling ~ and + */
+        .bx1+p
+       {
+        background-color: #4DD637;
+       } 
+       /* li{
+        background-color: black;
+       }  */
+    </style>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, doloribus?</span>
+    <p>this is outside paragraph</p>
+    <ul>
+      <li>First li</li>
+      <li>Second li</li>
+      <li>third li</li>
+      <li>Forth li</li>
+    </ul>
+    <li id="line1">this is outside li</li>
+    <div>
+      <p class="box1">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo,
+        doloribus doloremque expedita culpa pariatur perferendis ea! Eius
+        provident nostrum voluptatum.
+      </p>
+      <p class="box1 bg-1">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
+        voluptatem numquam dignissimos. Dicta, sapiente! Provident.
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus quod
+        distinctio asperiores consequuntur deserunt molestias consectetur
+        dignissimos qui culpa assumenda. Maiores officiis amet non doloribus
+        dicta minima, quam adipisci enim.
+      </p>
+      <p>
+        <li> first li inside div and p</li>
+        <li> second li inside div and p</li>
+        <li> third li inside div and p</li>
+        <li> forth li inside div and p</li>
+        <li> fifthli inside div and p</li>
+      </p>
+    </div>
+    <div>
+        <p class="bx1">this is paragraph 1</p>
+        <p>this is paragraph 2</p>
+        <p>this is pragraphh 3</p>
+        <p>this is paragraph 4</p>
+        <p>this is paragraph 5</p>
+    </div>
+  </body>
+</html>
