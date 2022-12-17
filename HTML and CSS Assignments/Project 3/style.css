@@ -1,0 +1,34 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.list{
+    display: flex;
+    list-style: none;
+   
+}
+.list-item:first-child{
+text-decoration: underline;
+}
+.list-item{
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 50px;
+    
+    
+}
+.button-group{
+    display: flex;
+    align-items: center;
+}
+.nav-button{
+    margin-left: 10px;
+    padding: 10px 50px;
+    border-radius: 15px;
+    font-size: 18px;
+}
