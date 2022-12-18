@@ -1,5 +1,6 @@
 /* You can not modify anything from the HTML file */
 /* You can only modify the CSS file */
+
 .navbar-container{
     display: flex;
     align-items: center;
@@ -32,3 +33,118 @@ text-decoration: underline;
     border-radius: 15px;
     font-size: 18px;
 }
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+   
+}
+/* .hero-container > div > div
+{
+    display: flex;
+} */
+.hero-container span:nth-of-type(2){
+left: 1310px;
+top:130px;
+}
+.hero-container .square + .star img{
+    height: 65px;
+}
+
+.square{
+    position: absolute;
+    left:250px;
+    top:390px;
+   /* z-index: 1; */
+}
+.square img{
+    height: 300px;
+    z-index: 1;
+}
+.star{
+    position: absolute;
+    /* z-index: 2; */
+    left: 650px;
+    top:620px;
+}
+.star img{
+ height: 40px;
+}
+.star + span
+{
+    height:500px;
+    width: 500px;
+}
+
+.globe{
+    position: absolute;
+    /* z-index: 5; */
+    top:120px;     
+    left:850px;
+}
+.globe img{
+    height: 60px;
+}
+.globe + div{
+    margin-left: 90px;
+    /* z-index: -1; */
+    /* position: absolute; */
+   
+}
+.globe + div img{
+    position: relative;
+    height: 500px;
+    z-index: 2;
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+   
+}
+.hero-heading{
+    font-size: 80px;
+}
+.hero-description{
+    margin-top:0px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 250px;
+    color: rgb(156, 156, 157);
+}
+.button-email{
+    margin-top: 40px;
+    padding: 5px 45px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-weight: 600;
+    color:rgb(158, 159, 160);
+}
+.button-join{
+    background-color: black;
+    margin-left: 10px;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.contact-heading{
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+   font-size: 20px;
+   color:rgb(53, 53, 53);
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.icons span{
+    margin-left: 20px;
+    
+}
+
