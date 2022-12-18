@@ -1,6 +1,8 @@
 /* You can not modify anything from the HTML file */
 /* You can only modify the CSS file */
-
+body{
+    overflow: hidden;
+}
 .navbar-container{
     display: flex;
     align-items: center;
